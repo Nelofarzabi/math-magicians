@@ -1,0 +1,23 @@
+.quotes {
+  border: 1px solid #999;
+  max-width: 50%;
+  margin-top: 3rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  color: blue;
+}
+
+.author {
+  margin-top: 1rem;
+}
+
+.space,
+.error {
+  margin-top: 1rem;
+}
+
+.space {
+  font-size: 1.5rem;
+  color: green;
+}
