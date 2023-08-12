@@ -1,0 +1,17 @@
+button {
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+.button {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.item-zero {
+  grid-column-start: span 2;
+}
+
+.bg-orange {
+  background-color: orange;
+}

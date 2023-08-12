@@ -1,0 +1,11 @@
+.fieldValue {
+  background-color: gray;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.9rem 0.3rem;
+  color: white;
+}
+
+.result {
+  font-size: 1.2rem;
+}
