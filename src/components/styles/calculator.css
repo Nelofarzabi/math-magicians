@@ -1,5 +1,16 @@
-.container {
-  max-width: 20rem;
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator {
+  min-width: 20rem;
   display: flex;
   flex-direction: column;
+}
+
+.doSome {
+  background-color: #eee;
+  padding: 2rem;
+  border-radius: 10px;
 }

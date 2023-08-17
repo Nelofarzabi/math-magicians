@@ -28,6 +28,10 @@ export default function FetchData() {
     return <div className="error">Something went wrong!</div>;
   }
   return (
-    isLoading ? <div className="space">Loading... </div> : <Quotes text={quote.quote} author={quote.author} />
+    <div className="container div-center">
+      {
+        isLoading ? <div className="space">Loading... </div> : <Quotes text={quote.quote} author={quote.author} />
+      }
+    </div>
   );
 }
