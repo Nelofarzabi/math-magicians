@@ -71,7 +71,7 @@ Example commands:
 
 <!-- LIVE DEMO -->
 ### Live Demo
-[Live demo available soon]()
+[Live demo ](https://inspiring-crostata-9e9f59.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
