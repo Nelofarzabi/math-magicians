@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Quotes from './quotes';
 
 export default function FetchData() {
-  const [quote, setQuote] = useState([]);
+  const [quote, setQuote] = useState({ quote: '', author: '' });
   const [isLoading, setIsLoading] = useState(false);
   const [hasError, setHasError] = useState(false);
   const apiKey = 'lGdmxaApU87yDaz1n5zNbS6zBKQ4lFVdikwORfjk';
@@ -28,6 +28,10 @@ export default function FetchData() {
     return <div className="error">Something went wrong!</div>;
   }
   return (
-    isLoading ? <div className="space">Loading... </div> : <Quotes text={quote.quote} author={quote.author} />
+    <div className="container div-center">
+      {
+        isLoading ? <div className="space">Loading... </div> : <Quotes text={quote.quote} author={quote.author} />
+      }
+    </div>
   );
 }

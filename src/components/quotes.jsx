@@ -11,7 +11,6 @@ export default function Quotes(props) {
         <q>{text}</q>
         <p className="author">
           <i>
-            -
             {author}
           </i>
         </p>

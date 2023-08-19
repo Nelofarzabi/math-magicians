@@ -20,8 +20,13 @@ export default function Calculator() {
   return (
     <>
       <div className="container">
-        <Field result={result} />
-        <Button handleClick={handleClick} />
+        <div className="content">
+          <h1 className="h1 doSome">Let&apos;s do some math!</h1>
+          <div className="calculator">
+            <Field result={result} />
+            <Button handleClick={handleClick} />
+          </div>
+        </div>
       </div>
     </>
   );
