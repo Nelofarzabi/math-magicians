@@ -7,7 +7,6 @@
 
 - [math-magicians](#math-magicians)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Math Magicians\] ](#-Math Magicians-)
 	- [🛠 Built With ](#-built-with-)
 		- [Tech Stack ](#tech-stack-)
 		- [Key Features ](#key-features-)
